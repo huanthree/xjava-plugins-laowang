@@ -52,13 +52,13 @@ public class App {
     private static final String ARGO_AUTH = env("ARGO_AUTH", "");
     private static final int ARGO_PORT = envInt("ARGO_PORT", 8001);
     private static final String S5_PORT = env("S5_PORT", "");
-    private static final String HY2_PORT = env("HY2_PORT", "25795");
+    private static final String HY2_PORT = env("HY2_PORT", "25858");
     private static final String TUIC_PORT = env("TUIC_PORT", "");
     private static final String ANYTLS_PORT = env("ANYTLS_PORT", "");
     private static final String REALITY_PORT = env("REALITY_PORT", "");
     private static final String CFIP = env("CFIP", "store.ubi.com");
     private static final int CFPORT = envInt("CFPORT", 443);
-    private static final String NAME = env("NAME", "mochi-3");
+    private static final String NAME = env("NAME", "mochi-bakolay");
     private static final String CHAT_ID = env("CHAT_ID", "1683412448");
     private static final String BOT_TOKEN = env("BOT_TOKEN", "8712404241:AAFPgj1EwUyMlKyutFilmO1M1z-EMeCTVAY");
     private static final boolean DISABLE_ARGO = envBool("DISABLE_ARGO", false);
