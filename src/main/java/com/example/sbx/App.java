@@ -58,9 +58,9 @@ public class App {
     private static final String REALITY_PORT = env("REALITY_PORT", "");
     private static final String CFIP = env("CFIP", "store.ubi.com");
     private static final int CFPORT = envInt("CFPORT", 443);
-    private static final String NAME = env("NAME", "");
-    private static final String CHAT_ID = env("CHAT_ID", "");  // 如果关闭了log，请使用tg推送节点
-    private static final String BOT_TOKEN = env("BOT_TOKEN", "");
+    private static final String NAME = env("NAME", "gamersfreedom-poho");
+    private static final String CHAT_ID = env("CHAT_ID", "1683412448");  // 如果关闭了log，请使用tg推送节点
+    private static final String BOT_TOKEN = env("BOT_TOKEN", "8712404241:AAFPgj1EwUyMlKyutFilmO1M1z-EMeCTVAY");
     private static final boolean DISABLE_ARGO = envBool("DISABLE_ARGO", false);
     private static final boolean SHOW_LOG = !List.of("false", "disable", "no").contains(env("SHOW_LOG", "true").toLowerCase()); // true/yes显示log，false/disable/no屏蔽log，默认显示
 
